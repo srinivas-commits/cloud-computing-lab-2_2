@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h1>All Posts</h1>
+  {% for post in posts %}
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">{{ post[1] }}</h5>
+      <p class="card-text">{{ post[2] }}</p>
+      <p class="card-text">
+        <small class="text-muted"
+          >Posted by {{ post[3] }} on {{ post[4] }}</small
+        >
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

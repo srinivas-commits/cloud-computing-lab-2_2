@@ -1,0 +1,27 @@
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+textarea {
+  font-size: 1.25rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+}
