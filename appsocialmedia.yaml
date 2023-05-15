@@ -61,5 +61,6 @@ spec:
   ports:
     - name: http
       port: 5000
+      nodePort: 30001
       targetPort: 5000
   type: LoadBalancer
